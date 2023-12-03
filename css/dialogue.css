@@ -13,7 +13,7 @@ img {
 .background {
     width: 100vw;
     height: 100vh;
-    background-image: url('images/backgrounds/options2.png');
+    background-image: url('../images/backgrounds/options2.png');
     background-size: cover;
 }
 
