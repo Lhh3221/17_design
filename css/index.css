@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.outside-box {
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('../images/backgrounds/bk.jpg');
+}
+
+.rain-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
+
+.rain{
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    background: linear-gradient(rgba(255,255,255,.3),rgba(255,255,255,.6));
+}
+
+.inside-box {
+    height: 20vh;
+    position: relative;
+    top: 50%;
+    left: 45vw;
+    font-size: 1.5vw;
+    text-decoration: none;
+}

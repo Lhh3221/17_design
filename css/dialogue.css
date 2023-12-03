@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/images/backgrounds/options2.png');
+    background-size: cover;
+}
+
+.dialogue-box {
+    position: absolute;
+    width: 40vw;
+    height: 30vw;
+    top: 30%;
+    left: 30%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.libai-box {
+    position: absolute;
+    
+}
+
+.wangchangling-box {
+    position: absolute;
+}
+
+.header {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -2.5vw;
+    text-align: center;
+    font-size: 1.2vw;
+    color:#22664F; /*设置文字颜色*/
+    font-weight:bolder; /*设置字体粗细*/
+    -webkit-animation: flicker 2s infinite;    /*设置动画*/
+}
+@-webkit-keyframes header{                    /*创建动画*/
+ 0%{
+     opacity: 1;
+ }
+ 50%{
+     opacity: 0.5;
+ }
+ 100%{
+     opacity: 1;
+ }
+
+}
+
+.box-image {
+    width: 5vw;
+    height: 5vw;
+}
+
+.libai-box {
+    width: 10vw;
+    height: 10vw;
+    position: relative;
+    top: 10vh;
+}
+
+.wangchangling-box {
+    width: 10vw;
+    height: 10vw;
+    position: relative;
+    float: right;
+    top: 5vw;
+    right: -5vw;
+}
+
+.libai-dialogue {
+    writing-mode: horizontal-tb;
+    position: relative;
+    left: 7vw;
+    top: -5vw;
+    width: fit-content;
+    max-width: 10vw;
+    font-size: 1vw;
+    border-radius: 0.3vw;
+    border: 1px solid;
+    background-color: wheat;
+}
+
+.wangchangling-dialogue {
+    justify-content: flex-end;
+    position: relative;
+    top: -5vw;
+    width: fit-content;
+    max-width: 10vw;
+    font-size: 1vw;
+    border: 1px solid;
+    border-radius: 0.3vw;
+    right: 10vw;
+    background-color: wheat;
+}
+
+.choose-box {
+    position: relative;
+    width: 30vw;
+    height: 25vw;
+    background-color: black;
+    left: 35%;
+    top: 35%;
+    opacity: 0.5;
+    color: olivedrab;
+    list-style-type: decimal;
+}
+
+.little-head {
+    display: block;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+li {
+    margin-top: 2.5vw;
+    text-align: center;
+    height: 3vw;
+    color: yellow;
+    border: 0.5px solid blue;
+}
+
