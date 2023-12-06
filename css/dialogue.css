@@ -65,19 +65,19 @@ img {
 }
 
 .libai-box {
-    width: 10vw;
-    height: 10vw;
+    width: 20vw;
+    height: 20vw;
     position: relative;
     top: 10vh;
 }
 
 .wangchangling-box {
-    width: 10vw;
-    height: 10vw;
+    width: 20vw;
+    height: 20vw;
     position: relative;
     float: right;
-    top: 5vw;
-    right: -5vw;
+    top: -5vw;
+    right: -15vw;
 }
 
 .libai-dialogue {
@@ -86,7 +86,6 @@ img {
     left: 7vw;
     top: -5vw;
     width: fit-content;
-    max-width: 10vw;
     font-size: 1vw;
     border-radius: 0.3vw;
     border: 1px solid;
@@ -98,11 +97,10 @@ img {
     position: relative;
     top: -5vw;
     width: fit-content;
-    max-width: 10vw;
     font-size: 1vw;
     border: 1px solid;
     border-radius: 0.3vw;
-    right: 10vw;
+    right: 22vw;
     background-color: wheat;
 }
 
